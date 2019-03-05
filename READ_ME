@@ -1,0 +1,17 @@
+Project Name: spring-sec-rolebased-login
+
+Roles defined : EMP and ADMIN
+
+access : 
+/test/**  -> can access without authentication
+(http://localhost:7070/spring-sec-custom-login-form/test/home)
+
+/emp/**   ->access provided both EMP and ADMIN roles
+(http://localhost:7070/spring-sec-custom-login-form/emp/home)
+
+
+/admin/** ->access provided only ADMIN role
+(http://localhost:7070/spring-sec-custom-login-form/admin/home)
+ 
+ 
+ Both Java code(SecurityConfiguration.java) and xml (security-config.xml) based configuration is provided.

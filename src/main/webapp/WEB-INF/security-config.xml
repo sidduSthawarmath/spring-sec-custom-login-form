@@ -6,6 +6,8 @@
                     http://www.springframework.org/schema/security
                      http://www.springframework.org/schema/security/spring-security.xsd">
 
+
+<!-- Every role in xml configuration must start with ROLE_ -->
 	<http auto-config="true">
 		<intercept-url pattern="/test/**" access="permitAll" />
 		<intercept-url pattern="/emp/**" access="hasAnyRole('ROLE_EMP','ROLE_ADMIN')" />
