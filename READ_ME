@@ -15,3 +15,5 @@ access :
  
  
  Both Java code(SecurityConfiguration.java) and xml (security-config.xml) based configuration is provided.
+ 
+ ref: http://websystique.com/spring-security/spring-security-4-custom-login-form-annotation-example/
